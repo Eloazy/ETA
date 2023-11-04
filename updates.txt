@@ -1,0 +1,27 @@
+Att:
+0.0.0.1.0 {
+	server and front-end creation
+	connection with temporary SQL locally
+	preparing for JS input
+}
+1.0.0 {
+	backend assembly
+	JS connection creation
+	tests to pull data from the TORN server
+}
+2.0.0 {
+	key validation
+	sweet moviments
+	config bay
+	improve code
+	optimize
+}
+2.1.0 {
+	link builder optimization
+	Add commands
+	jsonCode added
+}
+3.0.0 {
+	company function added
+	personalized banner for u
+}

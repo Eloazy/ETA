@@ -1,0 +1,104 @@
+body {
+	font-family: monospace;
+	background-image: url('../macrostyle/background.jpg');
+}
+.IDprofile {
+	border: 5px double black;
+	background-color: gray;
+	box-shadow: 10px 10px 10px gray;
+}
+header ul {
+	list-style: none;
+	display: inline;
+	color: white;
+}
+header div p {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#user {
+	font-family: monospace;
+	float: right;
+	color: white;
+	border: 5px double black;
+	background-color: gray;
+	box-shadow: 10px 10px 10px gray;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+nav ul li{
+	color: white;
+	display: inline;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+nav img {
+	width: 100px;
+	border: 5px double black;
+	background-color: gray;
+	box-shadow: 10px 10px 10px gray;	
+}
+.buttonMov {
+	border: 5px double black;
+	box-shadow: 10px 10px 10px gray;		
+}
+.buttonMov:hover {
+	transform-origin: left;
+	transition: 500ms;
+	transform: translateY(-10px);
+}
+#configPage {
+	padding: 5px;
+	background-color: rebeccapurple;
+	float: right;
+	font-size: 25px;
+	color: white;
+	border: 5px double black;
+	box-shadow: 10px 10px 10px gray;	
+	transform-origin: left;
+	transition: 1000ms;
+	transform: translateY(-500px);
+	margin-right: 1%;
+}
+#configPage input, #configPage button{
+	border: 5px double black;
+	box-shadow: none !important;	
+}
+.imgButton {
+	box-shadow: none;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+.imgButton img {
+	transform-origin: left;
+	transition: 500ms;
+	transform: translateY(-10px);
+}
+#contentComp {
+	background-color: black;
+	color: white;
+	border: 5px double gray;
+	box-shadow: 10px 10px 10px gray;
+	float: left;
+}
+#contentComp div {border: 5px double gray;}
+#contentComp ul {
+	margin: 5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+#contentComp li {
+	margin: 5%;
+}
+:disabled {
+	cursor: not-allowed !important;
+}
