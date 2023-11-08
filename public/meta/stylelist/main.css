@@ -1,104 +1,48 @@
+:root {
+    --inlineDistance: 25%;
+}
 body {
-	font-family: monospace;
-	background-image: url('../macrostyle/background.jpg');
+  background-color: #FFDAB9;
 }
-.IDprofile {
-	border: 5px double black;
-	background-color: gray;
-	box-shadow: 10px 10px 10px gray;
+#upBar{
+  background-color: black;
+  border: 5px double #FFFFFF;
+  padding: 10px;
+  color: white;
+  
 }
-header ul {
-	list-style: none;
-	display: inline;
-	color: white;
+#upBar ul, li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: sans-serif;
 }
-header div p {
-	padding-left: 10px;
-	padding-right: 10px;
-	text-align: center;
+#upBar ul li {
+    margin: -50px var(--inlineDistance) -50px var(--inlineDistance);
 }
-#user {
-	font-family: monospace;
-	float: right;
-	color: white;
-	border: 5px double black;
-	background-color: gray;
-	box-shadow: 10px 10px 10px gray;
+#banner {
+    border: 5px dotted gray;
+    border-radius: 10px;
 }
-nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+#divMain {
+    margin-top: 2.5%;
+    width: 75%;
+    margin-left: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: gray;
+    border: 5px solid black;
+
 }
-nav ul li{
-	color: white;
-	display: inline;
-	padding-left: 5vw;
-	padding-right: 5vw;
+#divMain ul li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-nav img {
-	width: 100px;
-	border: 5px double black;
-	background-color: gray;
-	box-shadow: 10px 10px 10px gray;	
-}
-.buttonMov {
-	border: 5px double black;
-	box-shadow: 10px 10px 10px gray;		
-}
-.buttonMov:hover {
-	transform-origin: left;
-	transition: 500ms;
-	transform: translateY(-10px);
-}
-#configPage {
-	padding: 5px;
-	background-color: rebeccapurple;
-	float: right;
-	font-size: 25px;
-	color: white;
-	border: 5px double black;
-	box-shadow: 10px 10px 10px gray;	
-	transform-origin: left;
-	transition: 1000ms;
-	transform: translateY(-500px);
-	margin-right: 1%;
-}
-#configPage input, #configPage button{
-	border: 5px double black;
-	box-shadow: none !important;	
-}
-.imgButton {
-	box-shadow: none;
-	border: none;
-	background-color: transparent;
-	cursor: pointer;
-}
-.imgButton img {
-	transform-origin: left;
-	transition: 500ms;
-	transform: translateY(-10px);
-}
-#contentComp {
-	background-color: black;
-	color: white;
-	border: 5px double gray;
-	box-shadow: 10px 10px 10px gray;
-	float: left;
-}
-#contentComp div {border: 5px double gray;}
-#contentComp ul {
-	margin: 5%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	list-style: none;
-}
-#contentComp li {
-	margin: 5%;
-}
-:disabled {
-	cursor: not-allowed !important;
+#divMain button {
+    width: 150%;
 }

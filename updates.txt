@@ -25,3 +25,8 @@ Att:
 	company function added
 	personalized banner for u
 }
+3.0.0-1 {
+	macro changes
+	JS not supported
+	JSON not supported
+}

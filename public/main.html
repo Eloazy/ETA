@@ -1,43 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- <meta http-equiv="refresh" content="1"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="./meta/stylelist/main.css">
-	<script src=".\meta\config\main.js"></script>
-	<script src=".\meta\config\display.js"></script>
-	<title>Eclipsal API - main</title>
+    <title>ETA | main menu [no JS]</title>
 </head>
-<header>
-	<button style="float: right;" onclick="configbutton()">⚙️</button>
-	<div id="configPage">
-		<p>– refresh data –</p>
-		<button onclick="refreshSettings('manual')">manual refresh</button>
-		<input id="refreshSettingsInput" type="number" placeholder="seconds" disabled/><button onclick="refreshSettings()" disabled>submit</button>
-	</div>
-	<div id="user">
-		<p id="name">Name: [loading]</p>
-		<p id="life">Life: [loading]</p>
-		<p id="stats">status: [loading]</p>
-		<p id="faction">faction: [loading]</p>
-		<p id="status">status: [loading]</p>
-	</div>
-	<ul>
-		<li><a href="https://www.torn.com/3028393" ><img id="ID" class="IDprofile" src="https://www.torn.com/sigs/4_3028393.png" /></a></li>
-		<li><h1>Eclipsal API [v:3.0] (use limited key [Recomended])</h1></li>
-	</ul>
-	<hr>
-</header>
 <body>
-	<nav>
-		<ul>
-			<!-- <li>BLOCK A</li> -->
-			<li><button class="imgButton" onclick="location.replace('./meta/subPages/compPage.html')"><img src="./meta/icons/compico.png"></button></li>
-			<li><input class="buttonMov" type="password" id='InputAPI' placeholder="your API"></input><button class="buttonMov" onclick="main(document.getElementById('InputAPI').value)">send</button></li>
-			<li><button class="imgButton" disabled><img src="./meta/icons/revico.png"></button></li>
-			<!-- <li>BLOCK E</li> -->
-		</ul>
-	</nav>
+    <div id="upBar">
+        <ul>
+            <li><h1>ETA</h1></li>
+            <li><a href="https://www.torn.com/3028393" ><img id="banner" src="https://www.torn.com/sigs/7_3028393.png"/></a></li>
+        </ul>
+    </div>
+    <div id="divMain">
+        <ul>
+            <li>
+                <div>
+                    <h5>Log-In</h5>
+                    <input type="text" placeholder="username">
+                    <input type="password" placeholder="password">
+                </div>
+            </li>
+            <li>
+                <div class="choose">
+                    <h5>Sign-In<h5/>
+                    <input type="text" placeholder="username">
+                    <input type="password" placeholder="password">
+                    <input type="password" placeholder="key">
+                </div>
+            </li>
+            <footer>
+                <li><button>submit</button></li>
+            </footer>
+        </ul>
+    </div>
 </body>
 </html>
